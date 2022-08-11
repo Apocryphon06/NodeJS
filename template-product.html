@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-
-        .products{
-            background-color: azure;
-            color: black;
-            padding: 10px;
-        }
+      .products {
+        background-color: azure;
+        color: black;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <div class="products">
       <h1>{%PRODUCT_NAME%}</h1>
+
       <p>About: {%DESCRIPTION%}</p>
       <h4>Price: ₹ {%PRICE%}</h4>
       <p>Rating: {%RATING%}</p>
       <p>Category: {%CATEGORY%}</p>
-      <hr />
     </div>
   </body>
 </html>
