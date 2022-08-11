@@ -1,0 +1,19 @@
+<style>
+  .card {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 300px;
+  }
+</style>
+
+<div class="card">
+  <h1>{%PRODUCT_NAME%}</h1>
+  <h2>Price: $ {%PRICE%}</h2>
+  <p>About: {%DESCRIPTION%}</p>
+  <p>Rating: {%RATING%}</p>
+  <p>Category: {%CATEGORY%}</p>
+  <a href="/product?id={%ID%}"><i>ℹ️</i></a>
+</div>
